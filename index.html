@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pooja Patil - Developer portfolio" />
+    <title>Pooja Patil | Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav-wrap">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="logo" href="#home" aria-label="Pooja Patil home">PP<span>.</span></a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+        <div class="nav-links" id="nav-links">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a class="nav-cta" href="#contact">Let's talk</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Available for opportunities</p>
+          <h1>Building digital products with <em>purpose.</em></h1>
+          <p class="hero-text">I'm Pooja, a developer focused on crafting thoughtful, accessible experiences for the web.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">View my work <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="mailto:hello@example.com">hello@example.com</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Decorative portfolio graphic">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="code-card">
+            <div class="code-dots"><i></i><i></i><i></i></div>
+            <pre><code><span>const</span> developer = {
+  name: <b>"Pooja"</b>,
+  focus: <b>"Web"</b>,
+  curious: <b>true</b>
+};</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section" id="work">
+        <div class="container">
+          <div class="section-heading">
+            <p>Selected work</p>
+            <h2>Projects I'm proud of</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card featured">
+              <div class="project-preview preview-one"><span>01</span></div>
+              <div class="project-info">
+                <p>Web application</p>
+                <h3>Project Atlas</h3>
+                <a href="#" aria-label="View Project Atlas">View project <span>↗</span></a>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-preview preview-two"><span>02</span></div>
+              <div class="project-info">
+                <p>Design system</p>
+                <h3>Studio UI</h3>
+                <a href="#" aria-label="View Studio UI">View project <span>↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about container" id="about">
+        <p class="section-label">About me</p>
+        <div class="about-copy">
+          <h2>I turn complex problems into simple, elegant solutions.</h2>
+          <p>My approach combines clear thinking, careful design, and reliable engineering. I care about the details that make products feel effortless.</p>
+        </div>
+      </section>
+
+      <section class="contact container" id="contact">
+        <p>Have a project in mind?</p>
+        <a href="mailto:hello@example.com">Let's create something <span>↗</span></a>
+      </section>
+    </main>
+
+    <footer class="container">
+      <p>© <span id="year"></span> Pooja Patil</p>
+      <div><a href="https://github.com/pooja-patil-13">GitHub</a><a href="mailto:hello@example.com">Email</a></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
